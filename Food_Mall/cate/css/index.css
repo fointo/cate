@@ -1,0 +1,23 @@
+.carousel-centrol-prev,.carousel-centrol-next{
+    width:40px;height:60px;
+    top:152px;background-color:#333;
+    border-radius:0.25rem;
+}
+.carousel-indicators li{
+    width:10px;height:10px;
+    background:#999;
+    border-radius:50%;
+    border:3px solid #333;
+    margin-right:5px;
+    margin-left:5px;
+}
+.carousel-indicators .active{background:#fff;}
+.kote{cursor:pointer;}
+.list-unstyled{background:rgba(68,68,68,.4);
+    width:220px;height:360px;
+}
+ul>li>a{
+    width:220px;height:60px;
+    font-size:18px;
+    color:#fff;
+}
