@@ -6,116 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- 引入4个文件，必须注意导入顺序-->
-   <link rel="stylesheet" href="../css/bootstrap.css"/>
-   <script src="../js/jquery.min.js"></script>
-   <script src="../js/popper.min.js"></script>
-   <script src="../js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="css/Overall_situation.css">
-   <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header></header>
     <div class="container">
-        <!-- 屏幕中图片的轮播图 -->
-        <div id="picture" class="carousel display-block kote" data-ride="carousel">
-            <div class="">
-                <ul class="list-unstyled">
-                    <li>
-                        <img src="" alt="">
-                        <a href="#">菜谱大全</a>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <a href="#">食材大全</a>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <a href="#">饮食健康</a>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <a href="#">专题专区</a>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <a href="#">一起红</a>
-                    </li>
-                </ul>
-            </div>
+        <div id="form" class="carousel" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                   <img src="img/index1.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index1.jpg" alt="">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index2.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index2.jpg" alt="">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index3.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index3.jpg" alt="">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index4.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index5.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index5.jpg" alt="">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index6.jpg" alt="">
+                    <a href="#">
+                        <img src="img/index6.jpg" alt="">
+                    </a>
                 </div>
             </div>
-            <!-- 轮播按钮 -->
-            <a href="#picture" class="carousel-control-prev" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a href="#picture" class="carousel-control-next" data-slide="next">
+            <!-- 左右小箭头 -->
+            <a href="#form" data-slide="next" class="carousel-control-next">
                 <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#form" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
             </a>
             <!-- 轮播指示器 -->
             <ul class="carousel-indicators">
-                <li data-target="picture" data-slide-to="0" class="active"></li>
-                <li data-target="picture" data-slide-to="0"></li>
-                <li data-target="picture" data-slide-to="0"></li>
-                <li data-target="picture" data-slide-to="0"></li>
-                <li data-target="picture" data-slide-to="0"></li>
-                <li data-target="picture" data-slide-to="0"></li>
+                <li class="active" data-slide-to="0" data-target="#form"></li>
+                <li data-slide-to="1" data-target="#form"></li>
+                <li data-slide-to="2" data-target="#form"></li>
+                <li data-slide-to="3" data-target="#form"></li>
+                <li data-slide-to="4" data-target="#form"></li>
+                <li data-slide-to="5" data-target="#form"></li>
             </ul>
-        </div>
-        <div id="" class="carousel">
-            <div class="carousel-inner">
-                <a href="#"></a>
-                <span>吃货最爱的炸食
-                        丑丑的肚肚的菜单   
-                        色泽金黄，口感酥脆的煎炸食物一直都是吃货们的最爱！这里有各种油炸的美味，欢迎来码！
-                        
-                        毛豆入菜，夏季才够完美
-                        小美的菜单   
-                        有一种夏天的夜晚，叫做啤酒毛豆小龙虾！和三五好友边吃边谈天说地，是夜晚最快乐的时光～
-                        
-                        鸡蛋的家常做法大全
-                        旺仔好奶奶的菜单   
-                        鸡蛋料理的N种超天才做法，快get起来！简单好吃而且还很健康，不多说了，快学起来！
-                        
-                        快手小炒菜
-                        暴躁的小气鬼的菜单   
-                        非常简单，属于零基础快手小炒。别再出去吃了 ，自己动手更美味～下饭下酒都是杠杠的！ ​
-                        
-                        花样主食
-                        蜜儿Mier🌸的菜单   
-                        或许你可以在主食上多换些新花样，用高颜值的主食点心捕获宝宝芳心，让宝宝爱上吃饭～
-                        
-                        豆腐西施
-                        筱箩的菜单   
-                        喜欢吃豆腐的亲们在哪里，这些做法简单又好吃，你也能做！非常接地气，上桌连汤汁都不剩，美食get√
-                        
-                        小满养生季，先将肥油忌！
-                        小美的菜单   
-                        小满天气渐热，雨水渐多，养生要做好防热防湿的准备。饮食宜以清淡的素食为主，多吃清热化湿的食物。
-                        
-                        百变豆制品的美味诱惑
-                        小美的菜单</span>
-                <p></p>
+            <div class="">
+                <ul class="">
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <footer></footer>
 </body>
 </html>
