@@ -23,6 +23,9 @@ INSERT INTO cate_user VALUES(4,'苟婷','4rfv',gou@qq.com,0);
 CREATE TABLE cate_ receiver_address(
   eid INT PRIMARY KEY,
   MemberName VARCHAR(12),/* 真实姓名 */
+  upwd VARCHAR(18),/* 登录密码 */
+  Address VARCHAR(48),
+  
 );
 -- 插入数据
 INSERT INTO cate_ receiver_address VALUES();
